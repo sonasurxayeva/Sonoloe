@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ab">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonoloe</title>
+    <link rel="stylesheet" href="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\CSS\style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgba(208, 150, 203, 0.91);
+    min-height: 100vh;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 44px  44px;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.for_you{
+    font-family: "Poppins", sans-serif;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.for_you{
+    margin-left: 44px;
+    
+}
+
+.navbar a{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+a:active,a:visited{
+    color: #0000;
+    
+}
+.navbar a::before{
+    content:'';
+    position: absolute;
+    top:100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(123, 39, 165);
+    transition:  .3s;
+}
+.navbar a:hover::before{
+     width: 100%;
+
+}
+
+
+.Search input[type=text] {
+    float:right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    font-size: 17px;
+    border-radius: 25px ;
+    
+}
+
+.Search{
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.Login{
+    font-size: 17px;
+    align-items: center;
+    width: 100px;
+    height: 4vh;
+    background-color: rgb(123, 39, 165);
+    border-radius: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.Login:hover{
+    background-color: rgb(81, 30, 106);
+}
+.Login a{
+    text-decoration: none;
+}
+i{
+    margin-top: 19px;
+    font-size: 18px;
+}
+
+  
+  
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin-left: 44px;
+}
+
+.Logo{
+   font-size: 32px;
+   font-weight: 600;
+   color: rgb(123, 39, 165);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+
+ 
+
+
+.Taylor h4{
+    margin-left: 5px;
+}
+.Teya h4{
+    margin-left: 5px;
+}
+.Weekend h4 {
+    margin-left: 5px;
+}
+
+.Foryou{
+    margin: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+.Foryou-2{
+    margin: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.Foryou-3{
+    margin: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+main img{
+    width: 224px;
+    border-radius: 5%;
+} 
+main a {
+   
+    text-decoration: none;
+}
+
+main h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+    </style>
+<header class="header">
+    <!--NOVBAR-->
+    
+        
+        <h1 class="Logo">Sonoloe</h1>
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">Artists</a>
+            <a href="">Genres</a>
+            <a href="">Favorites</a>
+            <a href="">Playlists</a>
+            
+        </nav>
+        
+    <!--SEARCHBAR-->
+
+
+    
+        <div class="Search">
+
+            <form>
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search...">
+            </form>
+            <button class="Login"><a href="loginpage.html">Login</a></button>
+        </div>
+         
+        
+        
+</header>
+    <!--Home-->
+<main>
+<p>Only for you,username</p>
+ <div class="Foryou">
+
+  <div class="Bruno">
+
+     <img class="Bruno" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Bruno Mars.jpeg" alt="Bruno Mars">
+     <h2>Bruno Mars</h2>
+     <h4><a href="https://youtu.be/adLGHcj_fmA">Silk Sonic</a></h4>
+
+  </div>
+
+  <div class="Lana">
+
+    <img class="Lana" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Lana Del Rey.jpg" alt="Born to die">
+    <h2>Lana Del Rey</h2>
+    <h4><a href="https://youtu.be/Bag1gUxuU0g">Born to die</a></h4>
+
+  </div>
+
+  <div class="Taylor">
+
+    <img class="Taylor" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Taylor Swift.jpeg" alt="Lover">
+    <h2>Taylor Swift</h2>
+    <h4><a href="https://youtu.be/-BjZmE2gtdo">Lover</a></h4>
+
+  </div>
+
+  <div class="Teya" >
+
+    <img class="Teya" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Teya Dora.jpg" alt="Dzanum">
+    <h2>Teya Dora</h2>
+    <h4><a href="https://youtu.be/jD97hNDiyvI">Dzanum</a></h4>
+
+  </div>
+ 
+  <div class="Weekend">
+
+     <img class="Weekend" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\The Weekend.jpg" alt="Starboy">
+     <h2>The Weekend</h2>
+     <h4><a href="https://youtu.be/34Na4j8AVgA">Starboy</a></h4>
+
+  </div>
+
+  
+ </div>
+
+ <div class="Foryou-2">
+
+    <div class="Adele">
+
+        <img class="Adele" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Adele.jpeg" alt="Set Fire to the rain">
+        <h2>Adele</h2>
+        <h4><a href="https://youtu.be/a2giXO6eyuI">Set fire to the rain</a></h4>
+   
+    </div>
+    <div class="Billie">
+
+        <img class="Billie" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Billie Eilish.jpg" alt="Ocean eyes">
+        <h2>Billie Eilish</h2>
+        <h4><a href="https://youtu.be/viimfQi_pUw">Ocean eyes</a></h4>
+   
+    </div>
+
+    <div class="Camila">
+
+        <img  class="Camila" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Camila Cabelo.jpg" alt="Havana">
+        <h2>Camila Cabelo</h2>
+        <h4><a href="https://youtu.be/BQ0mxQXmLsk?t=43">Havana</a></h4>
+   
+    </div>
+
+    <div class="Marina">
+
+        <img class="Marina" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\MARINA.jpeg" alt="Elaectra heart">
+        <h2>MARINA</h2>
+        <h4><a href="https://youtu.be/mhHrrVlshQ8">Electra heart</a></h4>
+   
+    </div>
+    <div class="Grace">
+
+        <img class="Grace" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\SAYGRACE.jpeg" alt="You don't own me">
+        <h2>SAYGRACE</h2>
+        <h4><a href="https://youtu.be/8SeRU_ZPDkE">You don't own me</a></h4>
+   
+    </div>
+    
+    
+    
+ </div>
+ <div class="Foryou-3">
+    <div class="Zeynep">
+
+        <img class="Zeynep" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Zeynep bastik.jpeg" alt="Her yerde sen">
+        <h2>Zeynep Bastik</h2>
+        <h4><a href="https://youtu.be/ABZd8wnB_6g">Her yerde sen</a></h4>
+   
+    </div>
+    <div class="Muslim">
+
+        <img class="Muslim" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Muslim Maqamayev.jpg" alt="Синяя вечность">
+        <h2>Муслим Магомаев</h2>
+        <h4><a href="https://youtu.be/ZRScZIq8waA">Синяя вечность</a></h4>
+   
+    </div>
+    <div class="Jeyhun">
+
+        <img class="Jeyhun" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Jeyhun.jpeg" alt="Tufan var">
+        <h2>Jeyhun</h2>
+        <h4><a href="https://youtu.be/L1GE7J-iQPA">Tufan var</a></h4>
+   
+    </div>
+    <div class="Alla">
+
+        <img class="Alla" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Alla Pugachova.jpeg" alt="Миллион алых роз">
+        <h2>Алла Пугачова</h2>
+        <h4><a href="https://youtu.be/tXfQxidhVEg">Миллион алых роз</a></h4>
+   
+    </div>
+    <div class="Ooes">
+
+        <img class="Ooes" src="C:\Users\User\OneDrive\Рабочий стол\Sona\Project(Sonoloe)\Images\Ooes.jpg" alt="Права">
+        <h2>Ooes</h2>
+        <h4><a href="https://youtu.be/4y5CZ5Cp3Fs">Права</a></h4>
+   
+    </div>
+
+
+ </div>
+
+
+</div>  
+    
+</main>
+</body> 
+</html>
